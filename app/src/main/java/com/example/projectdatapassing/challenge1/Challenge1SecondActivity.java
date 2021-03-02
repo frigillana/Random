@@ -1,4 +1,4 @@
-package com.example.projectdatapassing;
+package com.example.projectdatapassing.challenge1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class MainActivity2 extends AppCompatActivity {
+import com.example.projectdatapassing.R;
+
+public class Challenge1SecondActivity extends AppCompatActivity {
 
     private static final String EXTRA_KEY1 = "key1";
     private static final String EXTRA_KEY2 = "key2";
@@ -15,7 +17,7 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_challenge1_second);
 
         TextView result = findViewById(R.id.textView);
 
@@ -31,7 +33,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     static Intent newIntent(Context context, String firstInput, String secondInput) {
-        Intent intent = new Intent(context, MainActivity2.class);
+        Intent intent = new Intent(context, Challenge1SecondActivity.class);
         intent.putExtra(EXTRA_KEY1, firstInput);
         intent.putExtra(EXTRA_KEY2, secondInput);
         return intent;

@@ -2,4 +2,6 @@
     <string name="app_name">ProjectDataPassing</string>
     <string name="msg_matched">Matched!</string>
     <string name="msg_not_matched">Not Matched!</string>
+    <string name="hint_enter_first_input">Enter First Input</string>
+    <string name="hint_enter_second_input">Enter Second Input</string>
 </resources>
