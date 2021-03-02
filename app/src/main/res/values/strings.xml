@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ProjectDataPassing</string>
+    <string name="msg_matched">Matched!</string>
+    <string name="msg_not_matched">Not Matched!</string>
 </resources>
